@@ -1,0 +1,95 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    body{
+        padding: 0px;
+    }
+    /* header Menu */
+    nav.navbar{
+        z-index: 1000;
+    }
+    nav.navbar.navbar-transparent{
+        padding: 0px 15px;
+        margin-bottom: 0px;
+    }
+    nav.navbar.navbar-transparent .navbar-header .navbar-brand{
+        width: 200px;
+    }
+    .navbar-toggle{
+        margin-top: 17px;
+        padding: 9px 0px;
+    }
+    .navbar-toggle .icon-bar{
+        background-color: blue;
+    }
+    nav .navbar-collapse{
+        background-color: #ffffff;
+    }
+    nav.navbar.navbar-transparent .navbar-nav {
+        padding: 0px;
+        margin-top: 0px;
+    }
+    nav.navbar.navbar-transparent .navbar-nav li a.tel-button{
+        margin: 0px 15px;
+    }
+    nav.navbar.navbar-transparent .navbar-nav .dropdown-menu li a {
+        font-size: 14px;
+        padding: 9px 41px;
+        text-align: left;
+    }
+    /* End Header Menu */
+
+    /* Footer Area */
+    footer .footer-area-top{
+        margin-bottom: 20px;
+    }
+    footer .footer-area-top .logo-comp,
+    footer .footer-area-top .logo-sponsor{
+        width: 100%;
+    }
+    footer ul{
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    footer .footer-widget{
+        padding-bottom: 20px;
+    }
+    footer .footer-widget ul.contact-widget{
+        float: none;
+    }
+    footer .footer-widget ul.contact-widget li{
+        text-align: left;
+    }
+    footer .copyright{
+        padding: 15px 0px;
+    }
+    footer .footer-widget ul.contact-widget li .bpr-icon.ic-phone{
+        display: none;
+    }
+    /* End Footer Area */
+
+    /* Floating Button */
+    .floating-widget{
+        bottom: 33px;
+    }
+    .floating-widget p{
+        font-size: 12px;
+    }
+    .floating-widget .button-chat {
+        background: #02A63F;
+        padding: 8px 8px 8px 30px;
+    }
+    .floating-widget .circle-logo{
+        width: 40px;
+        height: 40px;
+        padding: 7px;
+        left: -14px;
+        top: -2px;
+    }
+    .floating-widget .circle-logo img{
+        width: 25px;
+        height: 25px;
+    }
+    /* End Floating Button */
+}
+@media (min-width: 768px) and (max-width: 1045px) {
+    
+}

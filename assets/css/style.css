@@ -1,0 +1,212 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/* Header Style */
+nav.navbar.navbar-transparent{
+    height: 71px;
+}
+nav.navbar.navbar-transparent .navbar-header .navbar-brand{
+    height: 100%;
+    width: 308px;
+}
+nav.navbar.navbar-transparent .navbar-nav{
+    padding: 15px 0px;
+}
+nav.navbar.navbar-transparent .navbar-nav li.active a,
+.nav .open>a{
+    border-bottom: 2px solid #D0A212;
+}
+.nav .open>a{
+    background-color: transparent;
+}
+nav.navbar.navbar-transparent .navbar-nav li a:hover{
+    background-color: transparent;
+    border-bottom: 2px solid #D0A212;
+}
+nav.navbar.navbar-transparent .navbar-nav li a.tel-button{
+    background: #007ACE;
+    border-radius: 4px;
+    border-bottom: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    position: relative;
+}
+nav.navbar.navbar-transparent .navbar-nav li a.tel-button .bpr-icon.ic-tel{
+    background-image: url('../img/homepage/Telepon.png');
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+nav.navbar.navbar-transparent .navbar-nav li a.tel-button:hover{
+    background: #40a9f1;
+}
+nav.navbar.navbar-transparent .navbar-nav li a.dropdown-toggle {
+    position: relative;
+}
+nav.navbar.navbar-transparent .navbar-nav li a.dropdown-toggle .bpr-icon.icon-chevron-down{
+    background-image: url('../img/homepage/Dropdown.png');
+    width: 12px;
+    height: 5px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+.navbar-nav>li>.dropdown-menu{
+    left: -28%;
+    top: 65px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+.navbar-nav>li>.dropdown-menu::before{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-bottom: 11px dashed;
+    border-right: 9px solid transparent;
+    border-left: 9px solid transparent;
+    color: #ffffff;
+    position: absolute;
+    top: -11px;
+    left: 42%;
+}
+nav.navbar.navbar-transparent .navbar-nav .dropdown-menu li a{
+    color: #007ACE;
+    font-size: 16px;
+    padding: 9px 20px;
+    text-align: center;
+}
+nav.navbar.navbar-transparent .navbar-nav .dropdown-menu li a:hover{
+    color: #ffffff;
+    background-color: #d0a212;
+    border-bottom: 0px;
+}
+/* Footer Style Area */
+footer{
+    background: #003C66;
+}
+footer .footer-area-top{
+    padding-top: 51px;
+    margin-bottom: 52px;
+}
+footer .footer-area-top .logo-comp{
+    width: 256px;
+    height: 100%;
+}
+footer .footer-area-top .logo-sponsor{
+    width: 239px;
+    height: 100%;
+    float: right;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a,
+footer ul li p,
+footer ul li h6,
+footer .copyright p{
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: #60aff5;
+}
+footer .copyright{
+    border-top: 1px solid #FFFFFF;
+    padding: 28px 0px;
+}
+footer .footer-widget{
+    padding-bottom: 45px;
+}
+footer .footer-widget li{
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+footer .footer-widget li h6{
+    font-size: 14px;
+}
+footer .footer-widget ul.address-widget{
+    padding-left: 0px;
+}
+footer .footer-widget ul.address-widget .bpr-icon.ic-mail{
+    background-image: url('../img/homepage/Email.png');
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+footer .footer-widget ul.contact-widget{
+    float: right;
+}
+footer .footer-widget ul.contact-widget li{
+    position: relative;
+    text-align: right;
+}
+footer .footer-widget ul.contact-widget li .bpr-icon.ic-phone{
+    background-image: url('../img/homepage/Telepon.png');
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 10px;
+    position: absolute;
+    left: -35px;
+    top: -4px;
+}
+/* End Footer Style Area */
+
+/* Floating Widget Area*/
+.floating-widget{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.floating-widget a{
+    color: #ffffff;
+}
+.floating-widget a:hover{
+    text-decoration: none;
+}
+.floating-widget p{
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 21px;
+}
+.floating-widget .circle-logo{
+    background: #F8F8F8;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    height: 82px;
+    width: 82px;
+    position: absolute;
+    left: -36px;
+    top: -12px;
+    padding: 15px;
+}
+.floating-widget .circle-logo img{
+    width: 52px;
+    height: 52px;
+    display: inline-block;
+}
+.floating-widget .button-chat{
+    background: #02A63F;
+    box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    padding: 19px 19px 19px 60px;
+}
+/* End Floating Widget Area */
