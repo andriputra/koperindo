@@ -509,3 +509,301 @@ footer .footer-widget ul.contact-widget li .bpr-icon.ic-phone{
     background-color: #ffffff;
 }
 /* END ABOUT AREA */
+
+/* CONTACT AREA */
+.contact-area .contact-banner{
+    min-height: 551px;
+    background-image: url('../img/kontakBPR/Banner\ Kontak.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.contact-area .contact-banner .about-banner-text{
+    height: 551px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.contact-area .contact-banner .about-banner-text h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0464A6;
+    margin-bottom: 30px;
+}
+.contact-area .contact-banner .about-banner-text p{
+    font-size: 18px;
+    line-height: 31px;
+    color: #4A4A4A;
+}
+.contact-content{
+    padding: 100px 0px;
+    position: relative;
+}
+.contact-content .bg-half-blue{
+    width: 50%;
+    background-color: #0074CE;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: inline-block;
+    height: 100%;
+}
+.contact-content .container .row{
+    margin-left: -15px;
+}
+.contact-content .content-form{
+    padding-right: 50px;
+}
+.contact-content .content-title h3{
+    margin: 0px;
+    padding: 0px 0px 75px;
+    color: #0464A6;
+}
+.contact-content .content-title h3.white{
+    color: #ffffff;
+}
+.contact-content .content-form-entry .form-group{
+    margin-bottom: 25px;
+}
+.contact-content .content-form-entry label{
+    font-size: 16px;
+    color: #4A4A4A;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.contact-content .content-form-entry input.form-control{
+    height: 53px;
+    border-radius: 6px;
+    box-shadow: none;
+    border:1px solid #9B9B9B;
+}
+.contact-content .content-form-entry .form-group textarea{
+    height: 111px;
+    border-radius: 6px;
+    box-shadow: none;
+    border:1px solid #9B9B9B;
+}
+.contact-content .content-form-entry button.btn{
+    background: #D0A212;
+    border-radius: 6px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px;
+    width: 23%;
+    border: none;
+    box-shadow: none;
+}
+.contact-content .content-form-entry button.btn:hover{
+    background-color: #02a63f;
+}
+.contact-content .content-information{
+    padding-left: 50px;
+}
+.contact-content .content-information .content-information-list ul{
+    list-style: none;
+    padding-left: 77px;
+    margin: 0px;
+    color: #ffffff;
+}
+.contact-content .content-information .content-information-list ul li{
+    margin-bottom: 70px;
+    position: relative;
+}
+.contact-content .content-information .content-information-list ul li:last-child{
+    margin-bottom: 0px;
+}
+.contact-content .content-information .content-information-list ul li .bpr-icon{
+    position: absolute;
+    background-image: url('../img/kontakBPR/Lokasi.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: -80px;
+}
+.contact-content .content-information .content-information-list ul li .bpr-icon.icon-phone{
+    background-image: url('../img/kontakBPR/Telepon.png');
+}
+.contact-content .content-information .content-information-list ul li .bpr-icon.icon-mail{
+    background-image: url('../img/kontakBPR/Email.png');
+}
+.contact-content .content-information .content-information-list ul li p{
+    font-size: 14px;
+    width: 60%;
+    line-height: 25px;
+}
+.contact-content .content-information .content-information-list ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.contact-content .content-information .content-information-list ul li a:hover{
+    text-decoration: none;
+}
+/* END CONTACT AREA */
+
+/* INFORMATION AREA */
+.info-area .info-banner{
+    min-height: 551px;
+    background-image: url('../img/infoBPR/Informasi\ BPR.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.info-area .info-banner .about-banner-text{
+    height: 551px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.info-area .info-banner .about-banner-text h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0464A6;
+    margin-bottom: 30px;
+}
+.info-area .info-banner .about-banner-text p{
+    font-size: 18px;
+    line-height: 31px;
+    color: #4A4A4A;
+}
+.info-area .info-content{
+    padding: 51px 0px;
+}
+.info-content-header .container .row{
+    margin-left: -15px;
+}
+.info-content-header .category{
+    display: flex;
+}
+.info-content-header .category span{
+    width: 18%;
+    align-self: center;
+}
+.info-content-header .category .form-control{
+    width: 35%;
+    align-self: center;
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 40px;
+}
+.info-content-header .search .search-form{
+    position: relative;
+}
+.info-content-header .search .search-form button{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    position: absolute;
+    left: 31%;
+    top: 7px;
+}
+.info-content-header .search .search-form button:focus{
+    outline: none;
+}
+.info-content-header .search .search-form input{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 40px;
+    padding: 0px 15px 0px 50px;
+    width: 70%;
+}
+.nav-pagination{
+    border-top: 0.3px solid #A9A9A9;
+    padding: 44px 0px 0px;
+}
+.nav-pagination .pagination-number{
+    display: block;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.nav-pagination .pagination-number li{
+    display: inline-block;
+    margin: 0px 5px;
+}
+.nav-pagination .pagination-number li:first-child a{
+    color: #D0A212;
+}
+.nav-pagination .pagination-number li:last-child a{
+    color: #D0A212;
+}
+.nav-pagination .pagination-number li a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #9B9B9B;
+}
+.nav-pagination .pagination-number li.current a{
+    background: #D0A212;
+    border-radius: 6px;
+    color: #ffffff;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+}
+.nav-pagination .pagination-number li a:hover{
+    color:#D0A212;
+    text-decoration: none;
+}
+.content-article{
+    padding: 40px 0px;
+}
+.content-article .container .row{
+    margin-left: -15px;
+}
+.content-article .article-listings .mb-30{
+    margin-bottom: 30px;
+}
+.content-article .article-listings .article-item .image-post{
+    margin-bottom: 20px;
+}
+.content-article .article-listings .article-item .index-post{
+    min-height: 230px;
+}
+.content-article .article-listings .article-item .index-post .header-title{
+    display: flex;
+}
+.content-article .article-listings .article-item .index-post .header-title span{
+    width: 50%;
+}
+.content-article .article-listings .article-item .index-post .header-title span.post-category{
+    color:#D0A212;
+}
+.content-article .article-listings .article-item .index-post .header-title span.post-date{
+    text-align: right;
+    color: #9B9B9B;
+}
+.content-article .article-listings .article-item .index-post .post-title{
+    color: #0074CE;
+    font-weight: 600;
+    font-size: 20px;
+}
+.content-article .article-listings .article-item .index-post .post-resume{
+    color: #4A4A4A;
+    line-height: 25px;
+}
+.content-article .article-listings .article-item .read-more a{
+    display: inline-block;
+    background: #0074CE;
+    border-radius: 6px;
+    color: #ffffff;
+    width: 40%;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+.content-article .article-listings .article-item .read-more a:hover{
+    background-color: #D0A212;
+}
+/* END INFORMATION AREA */

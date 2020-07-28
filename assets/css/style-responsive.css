@@ -229,6 +229,129 @@
         font-size: 14px;
     }
     /* End About Area */
+
+    /* Contact Area */
+    .contact-area .contact-banner{
+        padding-top: 70px;
+        background-position: bottom;
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+    .contact-area .contact-banner .about-banner-text{
+        height: 100%;
+    }
+    .contact-area .contact-banner .about-banner-text h2 {
+        font-size: 25px;
+    }
+    .contact-area .contact-banner .about-banner-text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .contact-content .bg-half-blue{
+        display: none;
+    }
+    .contact-content .content-form-entry .form-group {
+        margin-bottom: 15px;
+    }
+    .contact-content .content-form-entry input.form-control {
+        height: 40px;
+    }
+    .contact-content {
+        padding: 40px 0px;
+    }
+    .contact-content .content-title h3 {
+        padding: 0px 0px 25px;
+    }
+    .contact-content .content-form {
+        padding-right: 0px;
+    }
+    .contact-content .content-form-entry button.btn{
+        width: 100%;
+    }
+    .contact-content .content-information {
+        padding-left: 0px;
+        background-color: #0074CE;
+        margin-top: 40px;
+        padding: 20px;
+    }
+    .contact-content .content-information .content-information-list ul{
+        padding-left: 55px;
+    }
+    .contact-content .content-information .content-information-list ul li p{
+        width: 100%;
+    }
+    .contact-content .content-information .content-information-list ul li .bpr-icon{
+        left: -57px;
+    }
+    /* End Contact Area */
+
+    /* Information Area */
+    .info-area .info-banner{
+        padding-top: 70px;
+        background-position: bottom;
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+    .info-area .info-banner .about-banner-text{
+        height: 100%;
+    }
+    .info-area .info-banner .about-banner-text h2 {
+        font-size: 25px;
+    }
+    .info-area .info-banner .about-banner-text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .info-area .info-content {
+        padding: 51px 0px 0px;
+    }
+    .info-content-header .category span {
+        width: 32%;
+    }
+    .info-content-header .category .form-control {
+        width: 68%;
+    }
+    .info-content-header .category{
+        margin-bottom: 15px;
+    }
+    .info-content-header .search .search-form button{
+        left: 2%;
+    }
+    .info-content-header .search .search-form input{
+        width: 100%;
+    }
+    .content-article .article-listings .mb-30{
+        margin-bottom: 0px;
+    }
+    .content-article .article-listings .article-item{
+        margin-bottom: 30px;
+    }
+    .content-article .article-listings .article-item .index-post {
+        min-height: auto;
+    }
+    .nav-pagination .pagination-number li a {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .nav-pagination .pagination-number li.current a {
+        background: #D0A212;
+        border-radius: 2px;
+        color: #ffffff;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .nav-pagination{
+        padding: 24px 0px 0px;
+    }
+    .nav-pagination .pagination-number li{
+        margin: 0px 1px;
+    }
+    /* End Information Area */
 }
 @media (min-width: 768px) and (max-width: 1045px) {
     
