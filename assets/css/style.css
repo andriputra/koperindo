@@ -8,12 +8,16 @@ nav.navbar.navbar-transparent{
     width: 100%;
     margin: 0px;
 }
+nav.navbar.navbar-transparent.navbar-fixed-top.scrolled {
+    background-color: rgb(255 255 255);
+    transition: background-color 200ms linear;
+}
 nav.navbar.navbar-transparent .navbar-header .navbar-brand{
     height: 100%;
     width: 308px;
 }
 nav.navbar.navbar-transparent .navbar-nav{
-    padding: 15px 0px;
+    padding: 21px 0px;
 }
 nav.navbar.navbar-transparent .navbar-nav li.active a,
 .nav .open>a{
@@ -298,10 +302,210 @@ footer .footer-widget ul.contact-widget li .bpr-icon.ic-phone{
     position: absolute;
     left: 6%;
     bottom: -41px;
+    background-color: #0464A6;
+    min-height: 137px;
+    width: 87%;
 }
 .content-banner-block .content-banner-block-blue{
-    background-color: #0464A6;
     color: #ffffff;
-    min-height: 137px;
+    padding: 30px 30px;
+}
+.content-banner-block .content-banner-block-blue ul.listings-content{
+    margin: 0px;
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+}
+.content-banner-block .content-banner-block-blue ul.listings-content li{
+    flex-direction: column;
+    border-right: 1px solid #ffffff;
+    padding: 0px 60px 0px 80px;
+    position: relative;
+}
+.content-banner-block .content-banner-block-blue ul.listings-content li:last-child{
+    border-right: none;
+}
+.content-banner-block .content-banner-block-blue ul.listings-content li .content-blue h5{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+.content-banner-block .content-banner-block-blue ul.listings-content li .bpr-icon{
+    position: absolute;
+    background-image: url('../img/homepage/Tabungan.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    left: 38px;
+    top: -4px;
+}
+.content-banner-block .content-banner-block-blue ul.listings-content li .bpr-icon.icon-credit{
+    background-image: url('../img/homepage/Kredit.png');
+}
+.content-banner-block .content-banner-block-blue ul.listings-content li .bpr-icon.icon-deposite{
+    background-image: url('../img/homepage/Deposito.png');
+}
+.section-about{
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+.section-about .container{
+    position: relative;
+}
+.section-about .bg-blue{
+    display: block;
+    width: 70%;
+    position: absolute;
+    right: 0px;
+    background-color: #007ACE;
+    height: 470px;
+    bottom: 0px;
+}
+.section-about .text-about-home{
+    color: #ffffff;
+}
+.section-about .text-about-home h5{
+    margin: 30px 0px 15px;
+}
+.section-about .text-about-home h2{   
+    margin: 0px 0px 22px;
+}
+.section-about .text-about-home p{
+    font-size: 16px;
+    line-height: 29px;
+}
+.section-mission{
+    padding: 70px 0px;
+    background-color: #F9FBFC;
+}
+.section-mission .mission-listing img{
+    width: 68px;
+}
+.section-mission-title{
+    margin-bottom: 70px;
+}
+.section-mission-title h4{
+    margin: 0px;
+    font-weight: 400;
+}
+.section-mission-title h2{
+    font-weight: 600;
+    color: #0464A6;
+}
+.mission-listing .row{
+    margin-bottom: 90px;
+}
+.mission-listing .row:last-child{
+    margin-bottom: 0px;
+}
+.mission-text h3{
+    font-size: 21px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+.mission-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4A4A4A;
+}
+.section-otorise{
+    padding: 75px;
+}
+.section-otorise .logo-otorise{
+    width: 60%;
+}
+.section-otorise .text-otorise{
+    margin-bottom: 0px;
+    margin-top: 7px;
+    font-size: 14px;
 }
 /* End HOME PAGE */
+
+/* ABOUT AREA */
+.about-area .about-banner{
+    min-height: 551px;
+    background-image: url('../img/tentangBPR/Tentang\ BPR\ Banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.about-area .about-banner .about-banner-text{
+    height: 551px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.about-area .about-banner .about-banner-text h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0464A6;
+    margin-bottom: 30px;
+}
+.about-area .about-banner .about-banner-text p{
+    font-size: 18px;
+    line-height: 31px;
+    color: #4A4A4A;
+}
+.about-area .about-history{
+    padding: 140px 0px;
+}
+.about-area .about-history .history-text h4{
+    color: #9B9B9B;
+}
+.about-area .about-history .history-text h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #0464A6;
+    margin-bottom: 30px;
+}
+.about-area .about-history .history-text p{
+    color: #4A4A4A;
+    font-size: 16px;
+    line-height: 28px;
+}
+.about-area .about-vision{
+    padding: 71px 0px;
+    background-color: #007ACE;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    z-index: -2;
+}
+.about-area .about-vision-title h4{
+    font-size: 21px;
+    font-weight: 400;
+}
+.about-area .about-vision-title h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.about-area .about-vision-text{
+    position: relative;
+    width: 60%;
+    margin: 80px auto 0px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.about-area .about-vision-text::after{
+    content: '';
+    background-image: url('../img/tentangBPR/quotes.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    width: 112px;
+    position: absolute;
+    top: -30px;
+    left: 43%;
+    z-index: -1;
+}
+.about-area .about-history.bg-blue{
+    background-color: #F9FBFC;
+}
+.section-mission.bg-white{
+    background-color: #ffffff;
+}
+/* END ABOUT AREA */

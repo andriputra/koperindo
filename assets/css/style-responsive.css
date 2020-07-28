@@ -69,6 +69,7 @@
     /* Floating Button */
     .floating-widget{
         bottom: 33px;
+        z-index: 9999;
     }
     .floating-widget p{
         font-size: 12px;
@@ -89,6 +90,145 @@
         height: 25px;
     }
     /* End Floating Button */
+
+    /* Homepage */
+    .content-area .content-banner .carousel.slide .text-area{
+        height: 100%;
+    }
+    .content-area .content-banner .carousel.slide .text-area h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .content-area .content-banner .carousel.slide .text-area p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .content-area .content-banner .carousel.slide{
+        min-height: 100%;
+    }
+    .content-area .content-banner .carousel.slide .carousel-indicators{
+        text-align: center;
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .content-banner-block{
+        position: unset;
+        margin: 0 auto;
+    }
+    .content-banner-block .content-banner-block-blue ul.listings-content{
+        display: block;
+    }
+    .content-banner-block .content-banner-block-blue ul.listings-content li{
+        padding: 0px 0px 0px 35px;
+        border-right: 0px;
+        margin-bottom: 20px;
+    }
+    .content-banner-block .content-banner-block-blue ul.listings-content li:last-child{
+        margin-bottom: 0px;
+    }
+    .content-banner-block .content-banner-block-blue ul.listings-content li .bpr-icon{
+        width: 25px;
+        height: 25px;
+        left: 0px;
+    }
+    .content-banner-block .content-banner-block-blue ul.listings-content li .content-blue h5{
+        font-size: 18px;
+    }
+    .section-about{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .section-about .container .row{
+        margin-left: -15px;
+    }
+    .section-about .bg-blue{
+        width: 100%;
+    }
+    .section-mission{
+        padding: 20px 0px;
+    }
+    .section-mission-title {
+        margin-bottom: 40px;
+    }
+    .mission-listing .row {
+        margin-bottom: 20px;
+    }
+    .section-otorise {
+        padding: 30px 0px;
+    }
+    .section-otorise .text-otorise {
+        font-size: 9px;
+    }
+    .section-otorise .col-md-offset-2.col-md-4{
+        margin-bottom: 20px;
+    }
+    /* End Homepage */
+    
+    /* About Area */
+    .about-area .about-banner{
+        padding-top: 70px;
+        min-height: auto;
+        padding-bottom: 40px;
+    }
+    .about-area .about-banner .about-banner-text {
+        height: 100%;
+    }
+    .about-area .about-banner .about-banner-text h2 {
+        font-size: 25px;
+    }
+    .about-area .about-banner .about-banner-text p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-bottom: 0px;
+    }
+    .about-area .about-history {
+        padding: 40px 0px;
+    }
+    .about-area .about-history .container .row{
+        margin-left: -15px;
+    }
+    .about-area .about-history .history-text h4 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .about-area .about-history .history-text h2 {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .about-area .about-history .history-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .about-area .about-vision {
+        padding: 40px 0px;
+    }
+    .about-area .about-vision-title h4 {
+        font-size: 18px;
+    }
+    .about-area .about-vision-title h2 {
+        font-size: 25px;
+    }
+    .about-area .about-vision-text {
+        width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .about-area .about-vision-text::after{
+        left: 31%;
+    }
+    .section-mission-title h2{
+        font-size: 21px;
+    }
+    .mission-text h3 {
+        font-size: 18px;
+    }
+    .mission-text p {
+        font-size: 14px;
+    }
+    /* End About Area */
 }
 @media (min-width: 768px) and (max-width: 1045px) {
     
