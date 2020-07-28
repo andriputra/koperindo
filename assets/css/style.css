@@ -3,7 +3,10 @@
 }
 /* Header Style */
 nav.navbar.navbar-transparent{
-    height: 71px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    margin: 0px;
 }
 nav.navbar.navbar-transparent .navbar-header .navbar-brand{
     height: 100%;
@@ -210,3 +213,95 @@ footer .footer-widget ul.contact-widget li .bpr-icon.ic-phone{
     padding: 19px 19px 19px 60px;
 }
 /* End Floating Widget Area */
+
+/* HOME PAGE */
+.content-area .content-banner{
+    position: relative;
+}
+.content-area .content-banner .carousel.slide{
+    min-height: 700px;
+    background-color: #ECF8FF;
+    padding-top: 90px;
+}
+.content-area .content-banner .carousel.slide .text-area{
+    height: 520px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.content-area .content-banner .carousel.slide .text-area h2{
+    font-size: 35px;
+    line-height: 47px;
+    color: #0464A6;
+    font-weight: 600;
+    margin: 0px 0px 10px; 
+}
+.content-area .content-banner .carousel.slide .text-area p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4A4A4A;
+    margin-bottom: 0px;
+}
+.content-area .content-banner .carousel.slide .carousel-indicators{
+    left: 37%;
+    bottom: 21%;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.content-area .content-banner .carousel.slide .carousel-indicators li{
+    border: none;
+    background-color: #C4C4C4;
+    width: 13px;
+    height: 13px;
+    margin: 0px 7px;
+}
+.content-area .content-banner .carousel.slide .carousel-indicators li.active{
+    background-color: #007ACE;
+    border: none;
+    width: 13px;
+    height: 13px;
+}
+.content-area .content-banner .carousel.slide .carousel-control.left{
+    position: absolute;
+    background-image: none;
+    height: 100%;
+}
+.content-area .content-banner .carousel.slide .bpr-icon.icon-chevron-left{
+    background-repeat: no-repeat;
+    background-size: 9px;
+    background-image: url(../img/homepage/ArrowLeft.png);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    background-color: #ffffff;
+    text-align: center;
+    background-position: center;
+}
+.content-area .content-banner .carousel.slide .bpr-icon.icon-chevron-right{
+    background-repeat: no-repeat;
+    background-size: 9px;
+    background-image: url(../img/homepage/ArrowRight.png);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    background-color: #ffffff;
+    text-align: center;
+    background-position: center;
+}
+.content-banner-block{
+    position: absolute;
+    left: 6%;
+    bottom: -41px;
+}
+.content-banner-block .content-banner-block-blue{
+    background-color: #0464A6;
+    color: #ffffff;
+    min-height: 137px;
+}
+/* End HOME PAGE */
