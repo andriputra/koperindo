@@ -838,4 +838,59 @@ footer .footer-widget ul.contact-widget li .bpr-icon.ic-phone{
     padding: 90px 0px;
     background: #F9FBFC;
 }
+.tabungan-content .tabungan-box{
+    padding: 50px;
+    background: #FFFFFF;
+    border: 0.5px solid #A9A9A9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 80%;
+    margin: 0 auto;
+}
+.tabungan-content .tabungan-box .tabungan-box-title{
+    margin-bottom: 40px;
+    min-height: 127px;
+}
+.tabungan-content .tabungan-box .tabungan-box-title h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    color: #0464A6;
+    margin: 0px 0px 30px;
+}
+.tabungan-content .tabungan-box .tabungan-box-title p{
+    color: #9B9B9B;
+    font-size: 14px;
+    text-align: center;
+}
+.tabungan-table{
+    margin-bottom: 30px;
+}
+.tabungan-table table tr td{
+    border-top: 0px;
+    border-bottom: 0.5px solid #A9A9A9;
+    padding: 20px 0px;
+    color: #4A4A4A;
+}
+.tabungan-table table tr td:last-child{
+    text-align: right;
+}
+.tabungan-table table tr td .amount{
+    font-weight: 600;
+}
+.tabungan-table table tr:last-child td{
+    border: none;
+}
+.otorise{
+    display: flex;
+    justify-content: center;
+}
+.otorise span{
+    align-self: center;
+    margin-right: 17px;
+}
+.otorise img{
+    width: 32%;
+}
 /* End Product Tabungan Page */

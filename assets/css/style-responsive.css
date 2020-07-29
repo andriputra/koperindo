@@ -352,6 +352,45 @@
         margin: 0px 1px;
     }
     /* End Information Area */
+
+    /* Produk Tabungan Page */
+    .product-tabungan-area .product-tabungan-banner{
+        padding-top: 70px;
+        background-position: bottom;
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+    .product-tabungan-area .product-tabungan-banner .about-banner-text{
+        height: 100%;
+    }
+    .product-tabungan-area .product-tabungan-banner .about-banner-text h2 {
+        font-size: 25px;
+    }
+    .product-tabungan-area .product-tabungan-banner .about-banner-text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .tabungan-content {
+        padding: 40px 0px;
+    }
+    .tabungan-content .tabungan-box {
+        padding: 20px;
+        width: 100%;
+    }
+    .tabungan-table{
+        border: none;
+    }
+    .tabungan-content .tabungan-box{
+        margin-bottom: 30px;
+    }
+    .tabungan-content .tabungan-box .tabungan-box-title h3{
+        font-size: 18px;
+    }
+    .tabungan-content .tabungan-box .tabungan-box-title {
+        margin-bottom: 20px;
+        min-height: 100%;
+    }
+    /* End Produk Tabungan Page */
 }
 @media (min-width: 768px) and (max-width: 1045px) {
     
