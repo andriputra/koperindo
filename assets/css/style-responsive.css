@@ -391,6 +391,45 @@
         min-height: 100%;
     }
     /* End Produk Tabungan Page */
+
+    /* Deposito Page */
+    .deposito .deposito-banner{
+        padding-top: 70px;
+        background-position: bottom;
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+    .deposito .deposito-banner .about-banner-text{
+        height: 100%;
+    }
+    .deposito .deposito-banner .about-banner-text h2 {
+        font-size: 25px;
+    }
+    .deposito .deposito-banner .about-banner-text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .deposito-content .deposito-content-keunggulan {
+        padding: 30px 0px;
+    }
+    .keunggulan-content .bpr-icon{
+        width: 45px;
+        height: 45px;
+    }
+    .keunggulan-content .desc {
+        padding-left: 62px;
+        width: 100%;
+    }
+    .deposito-table {
+        padding: 30px 0px;
+    }
+    .deposito-table .deposito-table-title {
+        margin-bottom: 30px;
+    }
+    .deposito-table .table-deposito-data {
+        width: 100%;
+    }
+    /* End Deposito Page */
 }
 @media (min-width: 768px) and (max-width: 1045px) {
     

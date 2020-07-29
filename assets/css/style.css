@@ -11,6 +11,7 @@ nav.navbar.navbar-transparent{
 nav.navbar.navbar-transparent.navbar-fixed-top.scrolled {
     background-color: rgb(255 255 255);
     transition: background-color 200ms linear;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
 nav.navbar.navbar-transparent .navbar-header .navbar-brand{
     height: 100%;
@@ -894,3 +895,111 @@ footer .footer-widget ul.contact-widget li .bpr-icon.ic-phone{
     width: 32%;
 }
 /* End Product Tabungan Page */
+.deposito .deposito-banner{
+    min-height: 551px;
+    background-image: url('../img/produk/Deposito/Banner\ Deposito.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.deposito .deposito-banner .about-banner-text{
+    height: 551px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.deposito .deposito-banner .about-banner-text h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0464A6;
+    margin-bottom: 30px;
+}
+.deposito .deposito-banner .about-banner-text p{
+    font-size: 18px;
+    line-height: 31px;
+    color: #4A4A4A;
+}
+/* Deposito Page */
+.deposito-content .deposito-content-keunggulan{
+    padding: 60px 0px;
+}
+.deposito-content .deposito-content-keunggulan .deposito-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.deposito-content .deposito-content-keunggulan .deposito-title h4{
+    color: #9B9B9B;
+    font-size: 16px;
+    font-weight: 400;
+}
+.deposito-content .deposito-content-keunggulan .deposito-title h2{
+    color: #0074CE;
+    font-size: 21px;
+    font-weight: 600;
+}
+.keunggulan-content{
+    position: relative;
+}
+.keunggulan-content .bpr-icon{
+    background-image: url('../img/produk/Deposito/Perpanjang\ Otomatis.png');
+    width: 68px;
+    height: 68px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: -12px;
+    background-size: contain;
+}
+.keunggulan-content .bpr-icon.ic-flexible{
+    background-image: url('../img/produk/Deposito/Bayar\ Bunga.png');
+}
+.keunggulan-content .desc{
+    padding-left: 100px;
+    width: 80%;
+}
+.keunggulan-content .desc p{
+    color: #9B9B9B;
+    line-height: 25px;
+    font-size: 14px;
+}
+.deposito-table{
+    padding: 70px 0px;
+    background-color: #F9FBFC;
+}
+.deposito-table .deposito-table-title{
+    margin-bottom: 70px;
+}
+.deposito-table .deposito-table-title h4{
+    font-size: 16px;
+    color : #9B9B9B;
+}
+.deposito-table .deposito-table-title h2{
+    font-size: 26px;
+    color: #007ace;
+    margin-top: 15px;
+}
+.deposito-table .table-deposito-data{
+    width: 60%;
+    margin: 0 auto;
+}
+.deposito-table .table-deposito-data thead{
+    border-radius: 4px 4px 0px 0px;
+    background: #0074CE;
+}
+.deposito-table .table-deposito-data thead tr td{
+    border: 0.5px solid #E0E0E0;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+}
+.deposito-table .table-deposito-data tbody tr td{
+    padding: 30px 0px;
+    color: #0074CE;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 600;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+/* End Deposito Page */
