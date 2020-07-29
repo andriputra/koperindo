@@ -895,6 +895,8 @@ footer .footer-widget ul.contact-widget li .bpr-icon.ic-phone{
     width: 32%;
 }
 /* End Product Tabungan Page */
+
+/* Deposito Page */
 .deposito .deposito-banner{
     min-height: 551px;
     background-image: url('../img/produk/Deposito/Banner\ Deposito.png');
@@ -919,7 +921,6 @@ footer .footer-widget ul.contact-widget li .bpr-icon.ic-phone{
     line-height: 31px;
     color: #4A4A4A;
 }
-/* Deposito Page */
 .deposito-content .deposito-content-keunggulan{
     padding: 60px 0px;
 }
@@ -1003,3 +1004,171 @@ footer .footer-widget ul.contact-widget li .bpr-icon.ic-phone{
     border: 1px solid #e0e0e0;
 }
 /* End Deposito Page */
+
+/* Credit Page */
+.credit .credit-banner{
+    min-height: 551px;
+    background-image: url('../img/produk/Kredit/Banner\ Kredit.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.credit .credit-banner .about-banner-text{
+    height: 551px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.credit .credit-banner .about-banner-text h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0464A6;
+    margin-bottom: 30px;
+}
+.credit .credit-banner .about-banner-text p{
+    font-size: 18px;
+    line-height: 31px;
+    color: #4A4A4A;
+}
+.credit-content .credit-content-section{
+    padding: 60px 0px;
+    position: relative;
+}
+.credit-content .credit-content-section .credit-content-list{
+    display: flex;
+    justify-content: start;
+}
+.credit-content .credit-content-section .credit-content-list div{
+    width: 30%;
+}
+.credit-content .credit-content-section .credit-content-list .credit-content-list-title h2{
+    margin: 0px;
+    font-size: 21px;
+    color: #0464A6;
+    line-height: 28px;
+}
+.credit-content .credit-content-section .credit-content-list .credit-content-list-item ul{
+    padding-left: 10px;
+    list-style: none;
+}
+.credit-content .credit-content-section .credit-content-list .credit-content-list-item ul li{
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #4A4A4A;
+    position: relative;
+}
+.credit-content .credit-content-section .credit-content-list .credit-content-list-item ul li::before{
+    content: '';
+    background-color: #0074CE;
+    font-weight: bold;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+}
+.credit-content .credit-content-section .credit-content-list .credit-content-list-item ul li:last-child{
+    margin-bottom: 0px;
+}
+.credit-content .credit-content-section .bpr-icon{
+    background-image: url('../img/produk/Kredit/Pinjaman\ Karyawan\(1\).png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 9%;
+    width: 200px;
+    height: 213px;
+}
+.credit-content .credit-content-section.loan-general{
+    background-color: #F9FBFC;
+}
+.credit-content .credit-content-section.loan-general .bpr-icon.ic-loan-general{
+    background-image: url('../img/produk/Kredit/Pinjaman\ Umum\ \(1\).png');
+    top: 16%;
+    width: 206px;
+    height: 233px;
+}
+/* End Credit Page */
+
+/* Report Page */
+.report .report-banner{
+    min-height: 551px;
+    background-image: url('../img/laporanBPR/Banner\ BPR.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.report .report-banner .about-banner-text{
+    height: 551px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.report .report-banner .about-banner-text h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0464A6;
+    margin-bottom: 30px;
+}
+.report .report-banner .about-banner-text p{
+    font-size: 18px;
+    line-height: 31px;
+    color: #4A4A4A;
+}
+.report-content{
+    padding: 50px 0px;
+    background-color: #F9FBFC;
+}
+.report-content .report-content-title{
+    display: flex;
+    margin-bottom: 50px;
+}
+.report-content .report-content-title span{
+    width: 8%;
+    align-self: center;
+}
+.report-content .report-content-title .form-group{
+    margin-bottom: 0px;
+}
+.report-content .report-content-title .form-group select{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 5px 10px;
+    width: 116%;
+    height: 45px;
+}
+.report-content-list{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 25px 40px;
+    margin-bottom: 30px;
+}
+.report-content-list .image-report{
+    margin: 0px 20px 20px;
+}
+.report-content-list .report-desc{
+    display: flex;
+}
+.report-content-list .report-desc img {
+    width: 36px;
+    height: 39px;
+}
+.report-content-list .report-desc-text{
+    margin-left: 10px;
+}
+.report-content-list .report-desc-text p{
+    margin-bottom: 0px;
+}
+.report-content-list .report-desc-text a{
+    color: #0464A6;
+    font-size: 12px;
+}
+/* End Report Page */

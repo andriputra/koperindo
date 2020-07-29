@@ -430,6 +430,64 @@
         width: 100%;
     }
     /* End Deposito Page */
+
+    /* Credit Page */
+    .credit .credit-banner{
+        padding-top: 70px;
+        background-position: bottom;
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+    .credit .credit-banner .about-banner-text{
+        height: 100%;
+    }
+    .credit .credit-banner .about-banner-text h2 {
+        font-size: 25px;
+    }
+    .credit .credit-banner .about-banner-text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .credit-content .credit-content-section{
+        padding: 40px 0px;
+    }
+    .credit-content .credit-content-section .credit-content-list {
+        display: block;
+    }
+    .credit-content .credit-content-section .credit-content-list div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .credit-content .credit-content-section .credit-content-list .credit-content-list-item ul {
+        padding-left: 22px;
+        margin-bottom: 0px;
+    }
+    /* End Credit Page */
+
+    /* Report Page */
+    .report .report-banner{
+        padding-top: 70px;
+        background-position: bottom;
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+    .report .report-banner .about-banner-text{
+        height: 100%;
+    }
+    .report .report-banner .about-banner-text h2 {
+        font-size: 25px;
+    }
+    .report .report-banner .about-banner-text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .report-content .report-content-title span {
+        width: 30%;
+    }
+    .report-content .report-content-title{
+        margin-bottom: 30px;
+    }
+    /* End Report Page */
 }
 @media (min-width: 768px) and (max-width: 1045px) {
     
