@@ -92,7 +92,8 @@ nav.navbar.navbar-transparent .navbar-nav .dropdown-menu li a{
     padding: 9px 20px;
     text-align: center;
 }
-nav.navbar.navbar-transparent .navbar-nav .dropdown-menu li a:hover{
+nav.navbar.navbar-transparent .navbar-nav .dropdown-menu li a:hover,
+nav.navbar.navbar-transparent .navbar-nav .dropdown-menu li.active a{
     color: #ffffff;
     background-color: #d0a212;
     border-bottom: 0px;
@@ -807,3 +808,34 @@ footer .footer-widget ul.contact-widget li .bpr-icon.ic-phone{
     background-color: #D0A212;
 }
 /* END INFORMATION AREA */
+
+/* Product Tabungan Page */
+.product-tabungan-area .product-tabungan-banner{
+    min-height: 551px;
+    background-image: url('../img/produk/Tabungan/Banner\ Tabungan.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.product-tabungan-area .product-tabungan-banner .about-banner-text{
+    height: 551px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.product-tabungan-area .product-tabungan-banner .about-banner-text h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0464A6;
+    margin-bottom: 30px;
+}
+.product-tabungan-area .product-tabungan-banner .about-banner-text p{
+    font-size: 18px;
+    line-height: 31px;
+    color: #4A4A4A;
+}
+.tabungan-content{
+    padding: 90px 0px;
+    background: #F9FBFC;
+}
+/* End Product Tabungan Page */
